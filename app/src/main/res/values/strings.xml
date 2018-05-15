@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyOCR</string>
+
+    <!-- MainActivity -->
+
+    <string name="ok">OK</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="text_recognizer">Text recognizer</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="read_text">Read</string>
+
+    <!--OrcCaptureActivity -->
+    <string name="capture_all">Capture all</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+
+</resources>

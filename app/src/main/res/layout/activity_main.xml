@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enzan_k.myocr.MainActivity">
+
+    <TextView
+        android:id="@+id/status_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/text_recognizer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+
+        android:id="@+id/scrollViewReadValues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="400dp"
+        android:layout_below="@+id/status_message">
+
+        <TextView
+            android:id="@+id/text_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </ScrollView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView_SavedTextList"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp"
+        android:layout_above="@+id/button_saveText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_text"
+        android:id="@+id/read_text"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/use_flash"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/button_saveText"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/auto_focus"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_focus"
+        android:id="@+id/auto_focus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:checked="true"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_flash"
+        android:id="@+id/use_flash"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+</RelativeLayout>

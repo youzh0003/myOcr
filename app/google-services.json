@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193524591018",
+    "firebase_url": "https://myocr-70609.firebaseio.com",
+    "project_id": "myocr-70609",
+    "storage_bucket": "myocr-70609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193524591018:android:be3f3330508b924e",
+        "android_client_info": {
+          "package_name": "enzan_k.myocr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193524591018-214a77s44b8nda52moolpv217k0a6gig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "enzan_k.myocr",
+            "certificate_hash": "1eb06c86a4d0506fbff5b9e42b775d8c4bc40b9f"
+          }
+        },
+        {
+          "client_id": "193524591018-jrp1n705u43q3lc83d3kffl8kekii1fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQJ0tmOCi6nczx5xVb8TZnzBNjccaldNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193524591018-jrp1n705u43q3lc83d3kffl8kekii1fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
